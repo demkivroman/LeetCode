@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 public class WordDictionary {
-    Set<String> dictionary;
+    private Set<String> dictionary;
 
     public WordDictionary() {
         this.dictionary = new HashSet<>();
